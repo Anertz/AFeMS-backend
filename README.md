@@ -41,5 +41,5 @@ Minimally configured AFeMS-backend executable files, conf and settings.
 > net.ipv4.tcp_retries2 = 15
 > net.ipv4.tcp_keepalive_time = 300
 > net.ipv4.tcp_keepalive_intvl = 120
-> net.ipv4.tcp_keepalive_probes = 15 
- ```
+> net.ipv4.tcp_keepalive_probes = 15
+> ```
