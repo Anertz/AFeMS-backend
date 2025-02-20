@@ -1,7 +1,7 @@
 # AFeMS-backend 
 Minimally configured AFeMS-backend executable files, conf and settings.
 > - Ubuntu側のポート開放
-> - OCIではサブネットのセキュリティ・リストの変更も必要
+> - OCIではサブネットのセキュリティリストの変更も必要
 > ```bash
 > sudo iptables -I INPUT 5 -p tcp --dport xxxxx -j ACCEPT
 > ```
