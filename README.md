@@ -18,29 +18,27 @@ Minimally configured AFeMS-backend executable files, conf and settings.
 > # 4Gbps回線向け、高スループット、低遅延
 > # /etc/sysctl.conf
 > net.ipv4.tcp_congestion_control = bbr
-> net.ipv4.conf.default.rp_filter = 1
-> net.ipv4.conf.all.rp_filter = 1
+> net.ipv4.tcp_wmem = 4096 1048576 536870912
+> net.ipv4.tcp_rmem = 4096 1048576 536870912
+> net.ipv4.tcp_no_metrics_save = 1
+> net.ipv4.tcp_autocorking = 1
+> net.ipv4.tcp_retries2 = 20
+> net.ipv4.tcp_frto = 2
+> net.ipv4.tcp_slow_start_after_idle = 0
+> net.ipv4.tcp_keepalive_time = 300
+> net.ipv4.tcp_keepalive_intvl = 120
+> net.ipv4.tcp_keepalive_probes = 20
 > net.ipv4.tcp_syncookies = 1
 > net.ipv4.tcp_fastopen = 3
 > net.ipv4.tcp_moderate_rcvbuf = 1
 > net.ipv4.tcp_tw_reuse = 1
 > net.ipv4.tcp_mtu_probing = 1
+> net.ipv4.tcp_max_syn_backlog = 65535
 > net.core.somaxconn = 65535
 > net.core.netdev_max_backlog = 65535
-> net.ipv4.tcp_max_syn_backlog = 65535
 > net.core.default_qdisc = fq
 > net.core.wmem_max = 536870912
 > net.core.rmem_max = 536870912
-> net.ipv4.tcp_wmem = 4096 1048576 536870912
-> net.ipv4.tcp_rmem = 4096 1048576 536870912
-> net.ipv4.tcp_no_metrics_save = 1
-> net.ipv4.tcp_autocorking = 1
-> net.ipv4.tcp_retries2 = 15
-> net.ipv4.tcp_retries2 = 15
-> net.ipv4.tcp_frto = 2
-> net.ipv4.tcp_slow_start_after_idle = 0
-> net.ipv4.tcp_retries2 = 15
-> net.ipv4.tcp_keepalive_time = 300
-> net.ipv4.tcp_keepalive_intvl = 120
-> net.ipv4.tcp_keepalive_probes = 15
+> net.ipv4.conf.default.rp_filter = 1
+> net.ipv4.conf.all.rp_filter = 1
 > ```
