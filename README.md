@@ -21,7 +21,7 @@ Minimally configured AFeMS-backend executable files, conf and settings.
 > net.ipv4.tcp_wmem = 4096 1048576 536870912
 > net.ipv4.tcp_rmem = 4096 1048576 536870912
 > net.ipv4.tcp_no_metrics_save = 1
-> net.ipv4.tcp_autocorking = 1
+> net.ipv4.tcp_autocorking = 0
 > net.ipv4.tcp_retries2 = 20
 > net.ipv4.tcp_frto = 2
 > net.ipv4.tcp_slow_start_after_idle = 0
