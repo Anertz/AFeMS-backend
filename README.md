@@ -34,11 +34,11 @@ Minimally configured AFeMS-backend executable files, conf and settings.
 > net.ipv4.tcp_tw_reuse = 1
 > net.ipv4.tcp_mtu_probing = 1
 > net.ipv4.tcp_max_syn_backlog = 65535
+> net.ipv4.conf.default.rp_filter = 1
+> net.ipv4.conf.all.rp_filter = 1
 > net.core.somaxconn = 65535
 > net.core.netdev_max_backlog = 65535
 > net.core.default_qdisc = fq
 > net.core.wmem_max = 536870912
 > net.core.rmem_max = 536870912
-> net.ipv4.conf.default.rp_filter = 1
-> net.ipv4.conf.all.rp_filter = 1
 > ```
