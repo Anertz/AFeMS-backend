@@ -1,5 +1,19 @@
 # AFeMS-backend 
 Minimally configured AFeMS-backend executable files, conf and settings.
+
+<a href="#">
+  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/fabric_vector.svg">
+</a>
+<a href="#">
+  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/unsupported/forge_vector.svg">
+</a>
+<a href="#">
+  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/unsupported/quilt_vector.svg">
+</a>
+<a href="#">
+  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/built-with/markdown_vector.svg">
+</a> 
+
 > - iptablesのポート開放
 > - OCIではサブネットのセキュリティリストの変更も必要
 > ```bash
