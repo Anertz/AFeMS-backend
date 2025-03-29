@@ -14,8 +14,7 @@ Minimally configured AFeMS-backend executable files, conf and settings.
   <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3.2.0/assets/cozy/built-with/markdown_vector.svg">
 </a> 
 
-> - iptablesのポート開放
-> - OCIではサブネットのセキュリティリストの変更も必要
+> - iptables
 > ```bash
 > sudo iptables -I INPUT 5 -p udp --dport xxxxx -j ACCEPT
 > sudo /etc/init.d/netfilter-persistent save
