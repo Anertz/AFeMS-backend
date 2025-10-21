@@ -16,7 +16,8 @@ Minimally configured AFeMS-backend executable files, conf and settings.
 
 > - iptables
 > ```bash
-> sudo iptables -I INPUT 5 -p udp --dport xxxxx -j ACCEPT
+> sudo iptables -I INPUT 5 -p udp --dport xxxx -j ACCEPT
+> sudo iptables -I INPUT 5 -p tcp --dport xxxx -j ACCEPT
 > sudo /etc/init.d/netfilter-persistent save
 > sudo /etc/init.d/netfilter-persistent reload
 > ```
